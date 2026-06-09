@@ -1,0 +1,22 @@
+{
+  "name": "ai-image-studio-mobile",
+  "version": "1.0.0",
+  "description": "Standalone Android app: generate / edit / enhance images and image→video across Flux.2, Replicate, fal.ai, OpenAI and Grok. Keys stored on-device.",
+  "private": true,
+  "scripts": {
+    "add:android": "cap add android",
+    "sync": "cap sync",
+    "open": "cap open android",
+    "build:apk": "cap sync android && cd android && ./gradlew assembleDebug",
+    "build:release": "cap sync android && cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/share": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

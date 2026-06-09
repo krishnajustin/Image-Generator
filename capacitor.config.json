@@ -1,0 +1,10 @@
+{
+  "appId": "com.kr.aistudio",
+  "appName": "AI Image Studio",
+  "webDir": "www",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
